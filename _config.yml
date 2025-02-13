@@ -8,7 +8,7 @@ author:
 description: >
   Write an awesome description for your new site here...
 url: "https://cblevins.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/sp25-data-portfolio-minima" # the subpath of your site, e.g. /blog
+baseurl: "/sp25-data-portfolio" # the subpath of your site, e.g. /blog
 
 # Build settings
 
