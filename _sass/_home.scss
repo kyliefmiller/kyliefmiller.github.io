@@ -1,0 +1,93 @@
+// _sass/_home.scss
+
+// Home page specific styles
+.home-grid {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 2rem;
+  align-items: start;
+  font-size: 1.1rem; // Base font size increase for all home content
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.content-column {
+  // Content column styles
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1.25rem;
+  }
+
+  li {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.profile-column {
+  position: sticky;
+  top: 2rem;
+
+  p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+}
+
+.profile-image-container {
+  width: 75%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+// Add responsive font sizes for mobile
+@media screen and (max-width: 768px) {
+  .home-grid {
+    font-size: 1rem; // Slightly smaller base font on mobile
+  }
+
+  .content-column {
+    h1 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-size: 1.75rem;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+    }
+
+    p,
+    li {
+      font-size: 1.1rem;
+    }
+  }
+}

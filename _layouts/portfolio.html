@@ -1,0 +1,48 @@
+---
+layout: base
+---
+
+<div class="portfolio-container">
+  <div class="portfolio-header">
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+  </div>
+
+  <div class="portfolio-grid">
+    {% assign showcase_works = site.pages | where: "showcase", true | sort:
+    'date' | reverse %} {% for work in showcase_works %}
+    <div class="portfolio-card">
+      <div class="portfolio-content">
+        <h2 class="work-title">
+          <a href="{{ work.permalink | relative_url }}">{{ work.title }}</a>
+        </h2>
+        {% if work.description %}
+        <span class="work-description">{{ work.description }}</span>
+        {% endif %} {% if work.category %}
+        <span class="work-category">{{ work.category }}</span>
+        {% endif %} {% if work.tools %}
+        <div class="work-tools">
+          {% for tool in work.tools %}
+          <span class="tool-tag">{{ tool }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        <!--<div class="work-excerpt">{{ work.excerpt }}</div>-->
+
+        <div class="work-links">
+          {% if work.github_link %}
+          <a href="{{ work.github_link }}" class="github-link" target="_blank">
+            View on GitHub
+          </a>
+          {% endif %} {% if work.live_demo %}
+          <a href="{{ work.live_demo }}" class="demo-link" target="_blank">
+            Live Demo
+          </a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
