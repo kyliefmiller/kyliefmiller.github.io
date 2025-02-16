@@ -36,7 +36,7 @@ navigation:
       url: "/"
     - title: "Portfolio"
       url: "/portfolio/"
-    - title: ""Working With Data" Course Website"
+    - title: "/"Working With Data/" Course Website"
       url: "https://cblevins.github.io/sp25-data/"
     - title: "Project Review"
       url: "/project-review/"
