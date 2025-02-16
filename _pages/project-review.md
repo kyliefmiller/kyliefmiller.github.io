@@ -15,6 +15,10 @@ For this analysis, I plan to look at a project that combines environmental data 
 *NOTE I HAVE A FORMATTING QUESTION!* 
 I like to be able to make links open in a new tab. Looking this up, it looks like one way to do this involves adding some code to a file called "mkdocs.yml" but that seems like something we don't automatically have. I figured it probably wasn't worth digging too much into it, but if you have insight about opening in new tabs I would love to know!
 
+<div align="center">
+  <p><img src="/assets/img/example-screenshot.jpg" style="width: 80%;" /></p>
+</div>
+
 ## Project Overview
 
 ## Argument & Interpretation
