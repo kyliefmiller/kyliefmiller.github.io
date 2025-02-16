@@ -9,6 +9,9 @@ description: >
   Project review for HIST 4261/5261: Working With Data
 ---
 
+## Project Proposal
+For this analysis, I plan to look at a project that combines environmental data with historic redlining data to analyze disparities within cities. The specific project I plan to look at can be found by [clicking here](https://storymaps.arcgis.com/stories/0f58d49c566b486482b3e64e9e5f7ac9). I found this project through the University of Richmond's ["Mapping Inequality"](https://dsl.richmond.edu/panorama/redlining). At first I was planning to analyze and discuss that project, but figured the specific story map was more something more concise to analyze because the project itself has so many facets. 
+
 ## Project Overview
 
 ## Argument & Interpretation
