@@ -36,8 +36,6 @@ navigation:
       url: "/"
     - title: "Portfolio"
       url: "/portfolio/"
-    - title: "\"Working With Data\" Course Website"
-      url: "https://cblevins.github.io/sp25-data/"
     - title: "Project Review"
       url: "/project-review/"
     - title: "Skills"
@@ -76,7 +74,7 @@ minima:
   social_links:
     - title: Github
       icon: github
-      url: "https://kyliefmiller.github.io"
+      url: "https://github.com/kyliefmiller"
     - title: Linkedin
       icon: linkedin
       url: "https://www.linkedin.com/in/kylie-miller-564156128/"
