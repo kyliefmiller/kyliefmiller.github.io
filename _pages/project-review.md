@@ -17,7 +17,7 @@ description: >
 
 [The University of Richmond’s “Mapping Inequality” project](https://dsl.richmond.edu/panorama/redlining/introduction) compiled the data from the HOLC’s neighborhood designations in the 1930s, providing maps with the grade (A-D) of the neighborhoods. 
 <div align="center">
-  <p><img src="/assets/img/designation_example.png" style="width: 50%;" /></p>
+  <p><img src="/assets/img/designation_example.png" style="width: 60%;" /></p>
 </div>
 These maps were overlaid with data collected through GIS imagery, including a heat map, tree, map, and map showing impervious surfaces (or artificial construction) throughout cities. For instance, in the image below one can compare the heat distribution on July 19, 2020 in St. Louis to a neighborhood’s designated grade from the HOLC.
 
@@ -27,7 +27,7 @@ These maps were overlaid with data collected through GIS imagery, including a he
 The boundaries of the HOLC’s neighborhood designations were also combined with demographic data to create a snapshot of economic inequalities between grades of neighborhoods.
 
 <div align="center">
-  <p><img src="/assets/img/demographic_example.png" style="width: 50%;" /></p>
+  <p><img src="/assets/img/demographic_example.png" style="width: 60%;" /></p>
 </div>
 
 It is important to note that this project focused on data that would highlight the differences between neighborhood designations, showing that people in “D” graded neighborhoods live worse lives than those in “A” graded neighborhoods even 80 years after the original designation. This data was not only deliberately chosen among many options but also reduces these people’s lives to statistical averages without highlighting people’s experiences and humanity across these neighborhoods. While the project enhances environmental statistics with descriptions of their impact, these impacts - like “characteristically higher levels of pollution,…higher energy bills,…chronic respiratory symptoms, and even pre-term birth” - are also conclusions from statistics, creating a story of averages. Ironically, using data in this way can serve to perpetuate the HOLC’s negative neighborhood classifications, despite the fact that the authors push back on the often racially motivated and unfair methods initially implemented.
@@ -38,13 +38,13 @@ Using StoryMaps, the Esri team created a way to easily navigate their data and s
 
 StoryMaps enables readers to receive information in bite-sized pieces, giving them time to digest arguments and focus on important parts of the data. For example, in analyzing the impervious area map in Fort Wayne, the authors zoomed into a specific part of the map with an accompanying description to help the reader understand the inequality. Such design choices are especially important when working with GIS imagery, when the immediate analysis may be more difficult to interpret. 
 <div align="center">
-  <p><img src="/assets/img/zoom_example.png" style="width: 50%;" /></p>
+  <p><img src="/assets/img/zoom_example.png" style="width: 75%;" /></p>
 </div>
 That said, the design also enables the reader to explore the maps at their leisure. For instance, while the project highlighted portions of the heat map in St. Louis to accompany their argument, the reader could zoom in and out and determine for themselves the heat distribution throughout neighborhoods.
 
 This choice helps provide agency to users, but it also lets readers find inconsistencies within the data and argument. For instance, when looking at the heat map of St. Louis, one can find many “D” neighborhoods with cooler temperatures and many “A” neighborhoods with warmer temperatures. While data is never neat, the fact that the authors do not address these examples makes their argument weaker because one wonders the extent to which they cherry picked their information to support their point. While the breakdown of impervious area by percentage was helpful in addressing the outliers in Fort Wayne, the argument would have been stronger with such explanations for all cities.
 <div align="center">
-  <p><img src="/assets/img/percent_example.png" style="width: 50%;" /></p>
+  <p><img src="/assets/img/percent_example.png" style="width: 75%;" /></p>
 </div>
 
 ## Correlation or Causation?
