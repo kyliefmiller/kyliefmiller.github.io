@@ -38,6 +38,8 @@ navigation:
       url: "/portfolio/"
     - title: "Project Review"
       url: "/project-review/"
+    - title: "Data Biography"
+      url: "/data-biography/"
     - title: "Skills"
       url: "/skills/"
 
